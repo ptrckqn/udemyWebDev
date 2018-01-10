@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+
+    <h1>Register</h1>
+
+    <form>
+      <div>
+      <label for="firstName">First Name: </label>
+      <input type="text" id="firstName" name="firstName" placeholder="John" required>
+
+      <label for="lastName">Last Name: </label>
+      <input type="text" id="lastName"  name="lastName" placeholder="Smith" required>
+      </div>
+
+      <div>
+      <label for="male">Male</label>
+      <input type="radio" name="genderChoice" value="MALE" id="male">
+
+      <label for="female">Female</label>
+      <input type="radio" name="genderChoice" value="FEMALE" id="female">
+
+      <label for="other">Other</label>
+      <input type="radio" name="genderChoice" value="OTHER" id="other">
+      </div>
+
+      <div>
+      <label for="email">Email: </label>
+      <input type="email" name="email" placeholder="your email" id="email" required>
+
+      <label for="userPass">Password: </label>
+      <input type="password" name="password" value="" id="userPass" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+      </div>
+
+    <div>
+      Birthday:
+      <select class="" name="month">
+        <option value="">Month</option>
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+      </select>
+
+      <select class="" name="day">
+        <option value="">Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+
+      <select class="" name="year">
+        <option value="">Year</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+      </select>
+      </div>
+
+
+    <label for="tAndC">I Agree to the Terms and Conditions</label>
+    <input type="checkbox" name="tAndC" value="">
+    </div>
+
+    <div>
+    <button>Go! </button>
+    </div>
+    </form>
+
+  </body>
+</html>
