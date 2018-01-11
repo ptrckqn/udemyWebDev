@@ -1,12 +1,22 @@
 h1 {
-  color: red;
+  color: #00FFFF;
+ border: 1px solid green;
 }
 
 li {
-  color: orange;
+  color: rgba(255, 100, 10, .4);
 }
 
 h4{
-  color:green;
+  background: rgb(255, 100, 100);
+  color: rgb(100, 200, 1);
 
+}
+
+body{
+  /* background: url(https://upload.wikimedia.org/wikipedia/en/3/3d/MountainAshFloor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  background: pink;
 }
